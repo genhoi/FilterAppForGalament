@@ -1,0 +1,21 @@
+{
+    "name": "genhoi/filter-for-galament",
+    "require": {
+        "predis/predis": "^1.0",
+        "symfony/http-foundation": "^3.0",
+        "jms/serializer": "^1.1",
+        "php-di/php-di": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Evgeniy Glazyrin",
+            "email": "genhoi25@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "genhoi\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
